@@ -1,6 +1,7 @@
 function convertToWords() {
   let num = document.getElementById("numberInput").value;
 
+  // Updated validation for numbers between 0 and 999,999
   if (num < 0 || num > 999999) {
     alert("Please enter a valid number between 0 and 999,999.");
     return;
